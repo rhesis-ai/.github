@@ -31,7 +31,13 @@
 
 Open-source SDK for testing and validating LLM applications. Rhesis AI helps you build reliable Gen AI applications by providing curated test sets, dynamic test generation, and seamless workflow integration. Check out our [SDK repository](https://github.com/rhesis-ai/rhesis-sdk) and [documentation](https://docs.rhesis.ai) to get started.
 
-<img src="https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67b4aa889311644f99cf5426_Bildschirmfoto%202025-02-18%20um%2016.42.46.png" loading="lazy" width="1392" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 94vw, 95vw" alt="Dashboard mockup" srcset="https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67b4aa889311644f99cf5426_Bildschirmfoto%202025-02-18%20um%2016.42.46-p-500.png 500w, https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67b4aa889311644f99cf5426_Bildschirmfoto%202025-02-18%20um%2016.42.46-p-800.png 800w, https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67b4aa889311644f99cf5426_Bildschirmfoto%202025-02-18%20um%2016.42.46-p-1080.png 1080w, https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67b4aa889311644f99cf5426_Bildschirmfoto%202025-02-18%20um%2016.42.46-p-1600.png 1600w, https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67b4aa889311644f99cf5426_Bildschirmfoto%202025-02-18%20um%2016.42.46-p-2000.png 2000w, https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67b4aa889311644f99cf5426_Bildschirmfoto%202025-02-18%20um%2016.42.46-p-2600.png 2600w, https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67b4aa889311644f99cf5426_Bildschirmfoto%202025-02-18%20um%2016.42.46.png 2939w" class="uui-layout41_lightbox-image-01-2">
+<img src="https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67ea61119543db5f3fa4776e_Screenshot%20Rhesis%20AI%20Platform.png" 
+     loading="lazy" 
+     width="1392" 
+     sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 94vw, 95vw" 
+     alt="Dashboard mockup" 
+     srcset="https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67ea61119543db5f3fa4776e_Screenshot%20Rhesis%20AI%20Platform.png 2939w" 
+     class="uui-layout41_lightbox-image-01-2">
 
 
 ## About Rhesis AI
