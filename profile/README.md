@@ -1,4 +1,4 @@
-# Rhesis
+# Rhesis: Made for Gen AI Teams 🫶
 
 <p align="center">
   <img src="https://media.licdn.com/dms/image/v2/D4E16AQGsml8xlp-4XA/profile-displaybackgroundimage-shrink_350_1400/B4EZUlZc3_HgAc-/0/1740089186232?e=1745452800&v=beta&t=q9w3OLUemoRbV3Ps7yKtSdmaSXFk9hXidUJSSOP1sv0" alt="Rhesis Banner"/>
