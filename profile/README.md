@@ -1,7 +1,7 @@
 # Rhesis: Made for Gen AI Teams 🫶
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4E16AQGsml8xlp-4XA/profile-displaybackgroundimage-shrink_350_1400/B4EZUlZc3_HgAc-/0/1740089186232?e=1745452800&v=beta&t=q9w3OLUemoRbV3Ps7yKtSdmaSXFk9hXidUJSSOP1sv0" alt="Rhesis Banner"/>
+  <img src="https://camo.githubusercontent.com/d3b42d155531084c715e940539d2845830f6711874b824c2be11c76782c05281/68747470733a2f2f63646e2e70726f642e776562736974652d66696c65732e636f6d2f3636663432323132386236643066333335316365343165332f3636666366646632653236336161623966346131396535325f4c6f676f253230526865736973253230426c75652e706e67" alt="Rhesis Banner"/>
 </p>
 
 <p align="center">
