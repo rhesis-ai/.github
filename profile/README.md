@@ -1,4 +1,4 @@
-# Rhesis SDK
+# Rhesis
 
 <p align="center">
   <img src="https://media.licdn.com/dms/image/v2/D4E16AQGsml8xlp-4XA/profile-displaybackgroundimage-shrink_350_1400/B4EZUlZc3_HgAc-/0/1740089186232?e=1745452800&v=beta&t=q9w3OLUemoRbV3Ps7yKtSdmaSXFk9hXidUJSSOP1sv0" alt="Rhesis Banner"/>
@@ -29,7 +29,7 @@
 </p>
 
 
-Open-source SDK for testing and validating LLM applications. Rhesis AI helps you build reliable Gen AI applications by providing curated test sets, dynamic test generation, and seamless workflow integration. Check out our [SDK repository](https://github.com/rhesis-ai/rhesis-sdk) and [documentation](https://docs.rhesis.ai) to get started.
+Open-source platform for testing and validating LLM applications. Rhesis AI helps you build reliable Gen AI applications by providing curated test sets, dynamic test generation, and seamless workflow integration. Check out our [repository](https://github.com/rhesis-ai/rhesis) and [documentation](https://docs.rhesis.ai) to get started.
 
 <img src="https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67ea61119543db5f3fa4776e_Screenshot%20Rhesis%20AI%20Platform.png" 
      loading="lazy" 
