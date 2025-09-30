@@ -1,12 +1,12 @@
-# Rhesis: Made for Gen AI Teams 🫶
+# Rhesis: Open-Source Gen AI Testing  ![Rhesis AI_Logo_RGB_Favicon](https://github.com/user-attachments/assets/a8c5d22d-dc08-4408-adb1-597e6be85ae5)
 
 <p align="center">
-  <img src="https://camo.githubusercontent.com/d3b42d155531084c715e940539d2845830f6711874b824c2be11c76782c05281/68747470733a2f2f63646e2e70726f642e776562736974652d66696c65732e636f6d2f3636663432323132386236643066333335316365343165332f3636666366646632653236336161623966346131396535325f4c6f676f253230526865736973253230426c75652e706e67" alt="Rhesis Banner"/>
+  <img width="1584" alt="Rhesis AI Banner" src="https://github.com/user-attachments/assets/f5f40465-1c0f-4498-a283-cf3c0b18bac2" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/rhesis-ai/rhesis-sdk/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/rhesis-ai/rhesis-sdk" alt="License">
+  <a href="https://github.com/rhesis-ai/rhesis/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT%20%2B%20Commercial-blue" alt="License">
   </a>
   <a href="https://pypi.org/project/rhesis-sdk/">
     <img src="https://img.shields.io/pypi/v/rhesis-sdk" alt="PyPI Version">
@@ -28,27 +28,37 @@
   </a>
 </p>
 
+> Your team defines expectations, Rhesis generates and executes thousands of test scenarios. So that you know what you ship.
 
-Open-source platform for testing and validating LLM applications. Rhesis AI helps you build reliable Gen AI applications by providing curated test sets, dynamic test generation, and seamless workflow integration. Check out our [repository](https://github.com/rhesis-ai/rhesis) and [documentation](https://docs.rhesis.ai) to get started.
+Open-source Gen AI testing platform. Collaborative test management that turns expertise into comprehensive automated testing. Check out our [main repository](https://github.com/rhesis-ai/rhesis) and [documentation](https://docs.rhesis.ai) to get started.
 
-<img src="https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67ea61119543db5f3fa4776e_Screenshot%20Rhesis%20AI%20Platform.png" 
-     loading="lazy" 
-     width="1392" 
-     sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 94vw, 95vw" 
-     alt="Dashboard mockup" 
-     srcset="https://cdn.prod.website-files.com/66f422128b6d0f3351ce41e3/67ea61119543db5f3fa4776e_Screenshot%20Rhesis%20AI%20Platform.png 2939w" 
-     class="uui-layout41_lightbox-image-01-2">
-
+<img src="https://cdn.prod.website-files.com/68c3e3b148a4fd9bcf76eb6a/68d66fa1ff10c81d4e4e4d0f_Frame%201000004352.png" 
+  loading="lazy" 
+  width="1392" 
+  sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 94vw, 95vw" 
+  alt="Rhesis Results Dashboard" 
+  srcset="https://cdn.prod.website-files.com/68c3e3b148a4fd9bcf76eb6a/68d66fa1ff10c81d4e4e4d0f_Frame%201000004352.png 2939w">
 
 ## About Rhesis AI
 
-Rhesis AI helps organizations build Gen AI applications that deliver value, not surprises. Our platform enables you to:
-- Access curated test sets
-- Generate dynamic test sets
-- Tailor validations to your specific needs
-- Integrate testing seamlessly into your workflow
-- Keep your Gen AI applications robust, reliable & compliant
+**Make testing a peer to development**
 
-Made in Potsdam, Germany 🇩🇪
+You've added Gen AI to deliver value—now give testing the same attention. Built by developers who lived through inadequate testing tools, we're bringing the same sophistication to testing that you bring to development.
 
-Visit [rhesis.ai](https://rhesis.ai) to learn more about our platform and services.
+**Your whole team should define what matters**
+
+Why should only engineers decide what to test? Your legal team knows compliance risks. Marketing understands brand voice. Domain experts spot edge cases. Rhesis makes testing everyone's responsibility—no code required.
+
+**Know what you're shipping**
+
+Generate thousands of test scenarios from your team's collective expertise. Execute them automatically. Get clear visibility into exactly how your AI performs. Ship with understanding, not hope.
+
+**Open source, built for community**
+
+Core platform and SDK: MIT-licensed forever. Enterprise features: clearly separated in `ee/` folders under commercial licenses. No bait and switch—we're building testing tools the Gen AI community actually needs.
+
+---
+
+**Made with ![Rhesis AI_Logo_RGB_Favicon](https://github.com/user-attachments/assets/a8c5d22d-dc08-4408-adb1-597e6be85ae5) in Potsdam, Germany**
+
+Visit [rhesis.ai](https://rhesis.ai) to learn more.
