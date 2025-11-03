@@ -32,13 +32,13 @@
 
 Open-source Gen AI testing platform. Collaborative test management that turns expertise into comprehensive automated testing. Check out our [main repository](https://github.com/rhesis-ai/rhesis) and [documentation](https://docs.rhesis.ai) to get started.
 
-<img src="https://cdn.prod.website-files.com/68c3e3b148a4fd9bcf76eb6a/68d66fa1ff10c81d4e4e4d0f_Frame%201000004352.png" 
-  loading="lazy" 
-  width="1392" 
-  sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 94vw, 95vw" 
-  alt="Rhesis Results Dashboard" 
-  srcset="https://cdn.prod.website-files.com/68c3e3b148a4fd9bcf76eb6a/68d66fa1ff10c81d4e4e4d0f_Frame%201000004352.png 2939w">
-
+<img src="https://cdn.prod.website-files.com/68c3e3b148a4fd9bcf76eb6a/69039cdfccde6a7b02eac36f_Release%200.4.1.gif" 
+     loading="lazy" 
+     width="1080" 
+     sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 94vw, 95vw" 
+     alt="Rhesis Platform Results" 
+     srcset="https://cdn.prod.website-files.com/68c3e3b148a4fd9bcf76eb6a/69039cdfccde6a7b02eac36f_Release%200.4.1.gif 1080w" 
+     >
 ## About Rhesis AI
 
 **Make testing a peer to development**
