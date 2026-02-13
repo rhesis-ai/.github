@@ -46,7 +46,7 @@ Generate tests from requirements, simulate conversation flows, detect adversaria
 
 <p align="center">
   <a href="https://rhesis.ai/?video=open" target="_blank">
-    <img src=".github/images/GH_Short_Demo.png"
+    <img src="https://raw.githubusercontent.com/rhesis-ai/rhesis/main/.github/images/GH_Short_Demo.png"
          loading="lazy"
          width="1080"
          alt="Rhesis Platform Overview - Click to watch demo">
