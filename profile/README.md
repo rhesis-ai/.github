@@ -85,6 +85,20 @@ Check out our [main repository](https://github.com/rhesis-ai/rhesis) and [docume
 - **Self-hosted** - Run locally with Docker in 5 minutes
 - **Python SDK** - Integrate directly into your codebase
 
+--- 
+
+## Funding acknowledgment
+
+This project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under the StartUpSecure initiative.
+
+<p align="center">
+  <img src="https://rhesis.ai/logos/bmftr-light-mode.webp" alt="Gefördert durch das Bundesministerium für Forschung, Technologie und Raumfahrt" height="80">
+</p>
+
+<p align="center">
+  <em>Das diesem Projekt zugrundeliegende Vorhaben wird mit Mitteln des Bundesministeriums für Forschung, Technologie und Raumfahrt gefördert. Die Verantwortung für den Inhalt dieser Veröffentlichung liegt bei der Rhesis AI GmbH.</em>
+</p>
+
 ---
 
 <p align="center">
