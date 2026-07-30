@@ -55,37 +55,55 @@ Generate tests from requirements, simulate conversation flows, detect adversaria
 
 ---
 
-## About Rhesis AI
+## What Rhesis does
 
-### Built by developers who needed better LLM testing tools
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rhesis-ai/rhesis/main/.github/images/GH_Features.png"
+       loading="lazy"
+       width="1080"
+       alt="Rhesis Core Features">
+</p>
 
-We built Rhesis because existing LLM testing tools didn't meet our needs for testing agentic applications. If you face the same challenges, contributions are welcome.
+| | |
+|---|---|
+| **Test generation** | Describe requirements in plain language. Rhesis generates hundreds of test scenarios, including edge cases and adversarial prompts, from your connected context sources. |
+| **Conversation simulation** | **Penelope** runs realistic multi-turn dialogues to test context retention, role adherence, and coherence across extended interactions. |
+| **Adversarial testing** | **Polyphemus** and [garak](https://github.com/leondz/garak) probe for jailbreaks, prompt injection, PII leakage, and harmful content generation. |
+| **60+ pre-built metrics** | RAGAS, DeepEval, and Garak metrics, plus custom LLM-as-Judge evaluations — all with reasoning explanations. |
+| **Traces & observability** | OpenTelemetry-based tracing, with automatic instrumentation for LangChain, LangGraph, Microsoft Agent Framework, and OpenInference frameworks. |
+| **Bring your own model** | Any provider through [LiteLLM](https://github.com/BerriAI/litellm) — OpenAI, Anthropic, Gemini, Mistral, Ollama, vLLM, and 100+ more. |
 
-### Collaborative testing for cross-functional teams
-
-Testing shouldn't be limited to engineers. Legal teams understand compliance requirements. Marketing knows brand guidelines. Domain experts identify edge cases. Rhesis enables everyone to contribute their expertise without writing code.
-
-### From requirements to automated test execution
-
-Define requirements in plain language. Rhesis generates test scenarios based on your team's collective knowledge. Execute tests automatically via UI, SDK, or CI/CD. Get detailed results showing exactly how your LLM & agentic applications perform.
-
-### Open source with a clear license model
-
-[MIT licensed](https://github.com/rhesis-ai/rhesis/blob/main/LICENSE). Enterprise version lives in `ee/` folders and remain separate.
+Testing shouldn't be limited to engineers. Legal teams understand compliance requirements, marketing knows the brand guidelines, and domain experts spot the edge cases. Rhesis lets everyone contribute their expertise without writing code, then turns it into automated test runs via UI, SDK, or CI/CD.
 
 ---
 
 ## Get started
 
-Check out our [main repository](https://github.com/rhesis-ai/rhesis) and [documentation](https://docs.rhesis.ai) to get started.
+**Cloud** — [app.rhesis.ai](https://app.rhesis.ai). Managed service, just connect your app.
 
-**Quick start options:**
+**Self-hosted** — Docker, in about five minutes:
 
-- **Cloud** - [app.rhesis.ai](https://app.rhesis.ai) - Managed service, just connect your app
-- **Self-hosted** - Run locally with Docker in 5 minutes
-- **Python SDK** - Integrate directly into your codebase
+```bash
+git clone https://github.com/rhesis-ai/rhesis.git && cd rhesis && ./rh start
+```
 
---- 
+**Python SDK** — code-first testing inside your own pipeline:
+
+```bash
+pip install rhesis-sdk
+```
+
+Everything lives in the [rhesis monorepo](https://github.com/rhesis-ai/rhesis); full guides are in the [documentation](https://docs.rhesis.ai).
+
+---
+
+## Open source
+
+[MIT licensed](https://github.com/rhesis-ai/rhesis/blob/main/LICENSE), with no plans to relicense core features. The enterprise edition lives in separate `ee/` folders.
+
+We built Rhesis because existing LLM testing tools didn't meet our needs for testing agentic applications. If you face the same challenges, [contributions](https://github.com/rhesis-ai/rhesis/blob/main/CONTRIBUTING.md) are welcome.
+
+---
 
 ## Funding acknowledgment
 
