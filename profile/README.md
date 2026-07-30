@@ -1,8 +1,9 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ff43ca6a-ffde-4aff-9ff9-eec3897d0d02" alt="Rhesis AI Logo" height="80">
+  <img src="https://raw.githubusercontent.com/rhesis-ai/rhesis/main/.github/images/GH-collaborate.png"
+       loading="lazy"
+       width="1920"
+       alt="Rhesis: Get the feedback you need to improve your agents">
 </p>
-
-# Rhesis: Collaborative Testing for LLM & Agentic Applications
 
 <p align="center">
   <a href="https://github.com/rhesis-ai/rhesis/blob/main/LICENSE">
@@ -38,54 +39,116 @@
   <a href="https://github.com/rhesis-ai/rhesis/blob/main/CHANGELOG.md"><strong>Changelog</strong></a>
 </p>
 
-<h3 align="center">More than just evals.<br><strong>Collaborative agent testing for teams.</strong></h3>
+<h3 align="center">Structured feedback and evals for AI agents.<br>
+<strong>Open source · SaaS or self-hosted · UI, SDK, and MCP</strong></h3>
 
 <p align="center">
-Generate tests from requirements, simulate conversation flows, detect adversarial behaviors, evaluate with 60+ metrics, and trace failures with OpenTelemetry. Engineers and domain experts, working together.
-</p>
-
-<p align="center">
-  <a href="https://rhesis.ai/?video=open" target="_blank">
-    <img src="https://raw.githubusercontent.com/rhesis-ai/rhesis/main/.github/images/GH_Short_Demo.png"
-         loading="lazy"
-         width="1080"
-         alt="Rhesis Platform Overview - Click to watch demo">
-  </a>
+Connect the agent you are building, share the link with your team, and get structured feedback from the people who know the right answers.
 </p>
 
 ---
 
-## About Rhesis AI
+## Why Rhesis?
 
-### Built by developers who needed better LLM testing tools
+Most tools start with tests or traces. Rhesis starts one step earlier: the people who know what the
+agent should answer are not the people building it, and their feedback rarely arrives in a form you
+can act on.
 
-We built Rhesis because existing LLM testing tools didn't meet our needs for testing agentic applications. If you face the same challenges, contributions are welcome.
+- **Feedback that stays attached** — Every review sits on the test case and the agent version that produced it, not in a Slack thread
+- **One pass/fail bar** — The whole team reviews against the same tests, and you measure against them
+- **UI for reviewers, SDK and MCP for builders** — Same data, three ways in
+- **From feedback to CI** — Recurring feedback becomes tests and metrics that run on every change
 
-### Collaborative testing for cross-functional teams
+---
 
-Testing shouldn't be limited to engineers. Legal teams understand compliance requirements. Marketing knows brand guidelines. Domain experts identify edge cases. Rhesis enables everyone to contribute their expertise without writing code.
+## How it works
 
-### From requirements to automated test execution
+**1. Connect the agent you are building.** Paste a public REST URL, or use the SDK connector — your
+process opens an outbound WebSocket, so the agent works from your laptop or your VPC with no public
+URL.
 
-Define requirements in plain language. Rhesis generates test scenarios based on your team's collective knowledge. Execute tests automatically via UI, SDK, or CI/CD. Get detailed results showing exactly how your LLM & agentic applications perform.
+**2. Share the Rhesis link with your stakeholders.** Domain experts, product managers, and
+reviewers open it in a browser. Nothing to install, no code.
 
-### Open source with a clear license model
+**3. They put the agent to work.** They chat with the live agent in the playground, turn interesting
+conversations into tests, run test sets, and leave pass/fail verdicts and comments down to the
+individual metric or conversation turn.
 
-[MIT licensed](https://github.com/rhesis-ai/rhesis/blob/main/LICENSE). Enterprise version lives in `ee/` folders and remain separate.
+**4. Pull that feedback back into development.** Read it from the SDK or REST API, or work with it
+from Cursor, Claude Code, and other MCP clients. Fix the agent, run the same tests again.
+
+**5. Agree on what the agent has to get right.** Each cycle, feedback that arrived as prose becomes
+tests and metrics that check the same thing automatically.
+
+---
+
+## Who it’s for
+
+| Role | How they use Rhesis |
+|------|---------------------|
+| **AI engineers** | Connect the agent, pull feedback and reviewed test sets into the SDK, CI, and MCP while you build |
+| **Domain experts** | Try the agent, review its answers, say what is wrong and what a correct answer looks like. UI, no code |
+| **Product managers** | Turn scattered feedback into tests, and see whether the agent improves against the PRD. UI or MCP |
+
+---
+
+## Capabilities
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rhesis-ai/rhesis/main/.github/images/GH-capabilities.png"
+       loading="lazy"
+       width="1920"
+       alt="Start with the feedback you already have and expand from there — review test results, inspect annotations, gain insights">
+</p>
+
+Nobody can review every case by hand. Once the first feedback is in, you can grow coverage from it:
+
+- **Test generation** from your requirements, a PRD, or an uploaded file
+- **Conversation simulation** with Penelope; **adversarial probing** with Polyphemus and [garak](https://github.com/leondz/garak)
+- **60+ metrics** — RAGAS, DeepEval, garak, and custom LLM-as-Judge evaluators
+- **Traces** linked to test results via OpenTelemetry
+
+Generated tests are only as good as the requirements behind them, so connect the tools your
+requirements already live in — Notion, GitHub, Jira, Confluence — and Rhesis writes tests from the
+real thing. See [Tools](https://docs.rhesis.ai/docs/tools).
 
 ---
 
 ## Get started
 
-Check out our [main repository](https://github.com/rhesis-ai/rhesis) and [documentation](https://docs.rhesis.ai) to get started.
+### Cloud
 
-**Quick start options:**
+[app.rhesis.ai](https://app.rhesis.ai) — experience Rhesis in the browser, with nothing to set up.
 
-- **Cloud** - [app.rhesis.ai](https://app.rhesis.ai) - Managed service, just connect your app
-- **Self-hosted** - Run locally with Docker in 5 minutes
-- **Python SDK** - Integrate directly into your codebase
+### Local (Docker)
 
---- 
+```bash
+git clone https://github.com/rhesis-ai/rhesis.git && cd rhesis && ./rh start
+```
+
+Frontend at `localhost:3000`, API at `localhost:8080/docs`. For production self-hosting, see the
+[deployment docs](https://docs.rhesis.ai/docs/deployment).
+
+### From your own tools
+
+```bash
+pip install rhesis-sdk              # Python SDK: connector, synthesizers, metrics, tracing
+npx skills add rhesis-ai/rhesis     # MCP and skills for Cursor, Claude Code, and others
+```
+
+Everything lives in the [rhesis monorepo](https://github.com/rhesis-ai/rhesis); full guides are in
+the [documentation](https://docs.rhesis.ai).
+
+---
+
+## Open source
+
+[MIT licensed](https://github.com/rhesis-ai/rhesis/blob/main/LICENSE). No plans to relicense core features. Enterprise features live in `ee/` and remain separate.
+
+We built Rhesis because the feedback that mattered most kept getting stuck outside the development
+loop. If you face the same problem, [contributions](https://github.com/rhesis-ai/rhesis/blob/main/CONTRIBUTING.md) are welcome.
+
+---
 
 ## Funding acknowledgment
 
