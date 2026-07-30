@@ -118,7 +118,7 @@ real thing. See [Tools](https://docs.rhesis.ai/docs/tools).
 
 ### Cloud
 
-[app.rhesis.ai](https://app.rhesis.ai) — managed service, connect your agent and invite your team.
+[app.rhesis.ai](https://app.rhesis.ai) — experience Rhesis in the browser, with nothing to set up.
 
 ### Local (Docker)
 
